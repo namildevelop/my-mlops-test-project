@@ -41,7 +41,7 @@ jobs:
 
     - name: Upload model artifact
       # 학습 결과물(모델 파일)을 GitHub Actions에 업로드하여 다운로드할 수 있게 함
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: trained-model
         path: model.joblib # 업로드할 파일 경로
